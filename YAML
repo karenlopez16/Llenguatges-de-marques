@@ -1,0 +1,73 @@
+# Lenguaje de marca YAML
+
+## ¿Qué es YAML?
+YAML es un formato de serialización de datos diseñado para mejorar la legibilidad y facilidad de escritura en comparación con JSON. Ofrece soporte para varios tipos de datos y es compatible con numerosos lenguajes de programación, como JavaScript, Python y Java.
+
+## ¿Qué es un archivo YAML?
+Un archivo YAML es un documento que utiliza el lenguaje YAML (*YAML Ain't Markup Language*), una forma de serialización de datos basada en Unicode. Se utiliza para configuraciones, mensajería en Internet y persistencia de objetos. YAML se caracteriza por su sintaxis independiente del lenguaje de programación y su enfoque en la legibilidad humana.
+
+## Formato de archivo YAML
+- **Escalares:** Valores como cadenas, enteros, booleanos, etc.
+- **Secuencias:** Listas que comienzan con un guión (-), permitiendo anidaciones.
+- **Asignaciones:** Claves con valores que proporcionan flexibilidad en la estructura.
+
+
+## Sintaxis básica de YAML
+- Inicia con `---`.
+- Utiliza el mapeo clave: valor.
+- Admite tipos de datos como caracteres, cadenas, números enteros, floats y colecciones.
+
+## Tipos de datos en YAML
+- Booleanos (verdadero o falso).
+- Float para números decimales.
+- Nulo para valores nulos.
+- Cadenas que pueden ser multilínea.
+- Listas y anidaciones de listas.
+
+## Ejemplos de YAML
+```yaml
+name: James
+boy: yes
+GPA: 3.41
+
+MALE: FALSE
+GPA: 3.61
+ISSUES: NULL
+NAME: "HARRY"
+AGE: 16
+
+About: >
+ Hello, this is Ryan
+ From Alabama and I like to
+ Play soccer.
+
+Fruits:
+ - Apple
+ - Banana
+ - Guava
+
+Automobiles:
+ Car:
+   - Hyundai
+   - Volkswagen
+   - Ford
+
+Subjects:
+ Engineering:
+   Mechanical engineering:
+     - Design and manufacture
+     - Automobile
+     - Control and Design
+   Civil engineering:
+     - Structural engineering
+     - Hydropower
+   Arts:
+     - Medieval
+     - Modern
+     - Painting
+
+## Bibliografia
+
+(https://docs.fileformat.com/es/programming/yaml/)
+(https://geekflare.com/es/what-is-yaml/#geekflare-toc-basic-yaml-syntax)
+
