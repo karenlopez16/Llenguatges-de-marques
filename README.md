@@ -28,44 +28,49 @@ Un archivo YAML es un documento que utiliza el lenguaje YAML (*YAML Ain't Markup
 ![YAML](yaml.png)
 ![YAML](YamlExample1.png)
 
-# James
-- Boy: yes
-- GPA: 3.41
+## Ejemplos de YAML
+```yaml
+name: James
+boy: yes
+GPA: 3.41
 
-# Harry
-- Male: FALSE
-- GPA: 3.61
-- Issues: NULL
-- Name: "HARRY"
-- Age: 16
+MALE: FALSE
+GPA: 3.61
+ISSUES: NULL
+NAME: "HARRY"
+AGE: 16
 
-# About
-> Hello, this is Ryan
-> From Alabama and I like to
-> Play soccer.
+About: >
+ Hello, this is Ryan
+ From Alabama and I like to
+ Play soccer.
 
-# Fruits
-- Apple
-- Banana
-- Guava
+Fruits:
+ - Apple
+ - Banana
+ - Guava
 
-# Automobiles
-## Car
-- Hyundai
-- Volkswagen
-- Ford
+Automobiles:
+ Car:
+   - Hyundai
+   - Volkswagen
+   - Ford
 
-# Subjects
-## Engineering
-### Mechanical Engineering
-- Design and manufacture
-- Automobile
-- Control and Design
+Subjects:
+ Engineering:
+   Mechanical engineering:
+     - Design and manufacture
+     - Automobile
+     - Control and Design
+   Civil engineering:
+     - Structural engineering
+     - Hydropower
+   Arts:
+     - Medieval
+     - Modern
+     - Painting
 
-### Civil Engineering
-- Structural en
-
-
+````
 <!-- -->
 
 ## Bibliografía
@@ -73,6 +78,8 @@ Un archivo YAML es un documento que utiliza el lenguaje YAML (*YAML Ain't Markup
 - [Documentación de formato de archivo YAML](https://docs.fileformat.com/es/programming/yaml/)
 - [¿Qué es YAML? ](https://geekflare.com/es/what-is-yaml/#geekflare-toc-basic-yaml-syntax))
 
+<!-- -->
+<!-- -->
 
 
 # Qué es un archivo JSON
