@@ -24,6 +24,9 @@ Un archivo YAML es un documento que utiliza el lenguaje YAML (*YAML Ain't Markup
 - Cadenas que pueden ser multilínea.
 - Listas y anidaciones de listas.
 
+
+![YAML](URL de la imagen)
+
 ## Ejemplos de YAML
 ```yaml
 name: James
@@ -66,7 +69,10 @@ Subjects:
      - Modern
      - Painting
 
-## Bibliografia
 
-(https://docs.fileformat.com/es/programming/yaml/)
-(https://geekflare.com/es/what-is-yaml/#geekflare-toc-basic-yaml-syntax)
+<!-- -->
+
+## Bibliografía
+
+- [Documentación de formato de archivo YAML](https://docs.fileformat.com/es/programming/yaml/)
+- [¿Qué es YAML? ](https://geekflare.com/es/what-is-yaml/#geekflare-toc-basic-yaml-syntax)
