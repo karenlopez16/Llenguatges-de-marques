@@ -25,33 +25,6 @@ Un archivo YAML es un documento que utiliza el lenguaje YAML (*YAML Ain't Markup
 - Listas y anidaciones de listas.
 
 
-![YAML](# Lenguaje de marca YAML
-
-## ¿Qué es YAML?
-YAML es un formato de serialización de datos diseñado para mejorar la legibilidad y facilidad de escritura en comparación con JSON. Ofrece soporte para varios tipos de datos y es compatible con numerosos lenguajes de programación, como JavaScript, Python y Java.
-
-## ¿Qué es un archivo YAML?
-Un archivo YAML es un documento que utiliza el lenguaje YAML (*YAML Ain't Markup Language*), una forma de serialización de datos basada en Unicode. Se utiliza para configuraciones, mensajería en Internet y persistencia de objetos. YAML se caracteriza por su sintaxis independiente del lenguaje de programación y su enfoque en la legibilidad humana.
-
-## Formato de archivo YAML
-- **Escalares:** Valores como cadenas, enteros, booleanos, etc.
-- **Secuencias:** Listas que comienzan con un guión (-), permitiendo anidaciones.
-- **Asignaciones:** Claves con valores que proporcionan flexibilidad en la estructura.
-
-
-## Sintaxis básica de YAML
-- Inicia con `---`.
-- Utiliza el mapeo clave: valor.
-- Admite tipos de datos como caracteres, cadenas, números enteros, floats y colecciones.
-
-## Tipos de datos en YAML
-- Booleanos (verdadero o falso).
-- Float para números decimales.
-- Nulo para valores nulos.
-- Cadenas que pueden ser multilínea.
-- Listas y anidaciones de listas.
-
-
 ![YAML](yaml.png)
 ![YAML](YamlExample1.png)
 
